@@ -1,6 +1,7 @@
 {
   "name": "resume",
   "version": "0.1.0",
+  "homepage":"https://xiomara-masmela.github.io/",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",

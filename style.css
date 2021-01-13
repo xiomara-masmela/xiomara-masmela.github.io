@@ -11,11 +11,35 @@ p {
 .main-content {
     margin-bottom: 80px;
 }
+.button {
+    background-color: #156056;
+    border-color: #156056;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    height: auto;
+}
+.outline-white {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.outline-white:hover {
+    border-color: #b5b5b5;
+    color: #b5b5b5;
+    opacity: 0.8;
+}
 
 /* -------Navigation -------- */
 
 .navbar-item.home-logo img {
     max-height: 100px;
+}
+
+nav.is-transparent .navbar-menu .navbar-end a.navbar-item:hover {
+    color: #156056;
 }
 
 /* -------Introduction  -------- */
@@ -39,22 +63,23 @@ p {
 
 .beddown-container {
     background: #156056;
-    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/beddown.png");
-    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/beddown.png");
+    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.7)), url("./Images/beddown.png");
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.7)), url("./Images/beddown.png");
+    
 
 }
 
 .tobeme-container {
     background: #156056;
-    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/tobeme.png");
-    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/tobeme.png");
+    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.7)), url("./Images/tobeme.png");
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.7)), url("./Images/tobeme.png");
 
 }
 
 .rtp-container {
     background: #156056;
-    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/rtpapparel.png");
-    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/rtpapparel.png");
+    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.7)), url("./Images/rtpapparel.png");
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.7)), url("./Images/rtpapparel.png");
 
 }
 
@@ -68,9 +93,8 @@ p {
 }
 
 
-a.project-content {
-    color: white;
-}
+
+
 
 
 /* -------Footer -------- */

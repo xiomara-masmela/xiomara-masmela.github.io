@@ -1,41 +1,88 @@
-
-.project-container::after {
-    content: ""; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
-    opacity: .5;
-    z-index: 1;
-}
-.project-container > * {
-    z-index: 100;
+/* -------General Classes -------- */
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #373a39;
 }
 
+p {
+    line-height: 38px;
+}
+
+.main-content {
+    margin-bottom: 80px;
+}
+
+/* -------Navigation -------- */
+
+.navbar-item.home-logo img {
+    max-height: 100px;
+}
+
+/* -------Introduction  -------- */
+
+#home {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.intro-image {
+    background-image: url("./Images/Xio.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 95% 33%;
+
+}
+
+/* -------Portfolio -------- */
+.portfolio-grid{
+    margin-bottom: 60px;
+}
 
 .beddown-container {
-    background-image: url("./Images/beddown.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: #156056;
+    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/beddown.png");
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/beddown.png");
+
 }
 
-.tobeme-container{
-    background-image: url("./Images/tobeme.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+.tobeme-container {
+    background: #156056;
+    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/tobeme.png");
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/tobeme.png");
+
 }
 
-.rtp-container{
-    background-image: url("./Images/rtpapparel.png");
+.rtp-container {
+    background: #156056;
+    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/rtpapparel.png");
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.8)), url("./Images/rtpapparel.png");
+
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 200px;
 }
-.project-content {
-    
-    background-color: transparent;
+
+
+a.project-content {
+    color: white;
 }
-.tile.is-parent.project-container {
-    padding: 0;
-    margin: 0.5em;
+
+
+/* -------Footer -------- */
+footer.footer {
+    background-color: #156056;
+}
+
+footer strong,
+footer .footer-social-icon a {
+    color: #fff;
+}
+
+footer>div>div>a {
+    margin-right: 20px;
 }

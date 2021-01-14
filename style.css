@@ -42,7 +42,9 @@ nav.is-transparent .navbar-menu .navbar-end a.navbar-item:hover {
     color: #156056;
 }
 
-
+#navMenu {
+    display: none;
+}
 @media only screen and (max-width: 1024px) {
     #navMenu {
         position: absolute;

@@ -105,6 +105,11 @@ nav.is-transparent .navbar-menu .navbar-end a.navbar-item:hover {
     background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.7)), url("./Images/rtpapparel.png");
 
 }
+.glucosamine-container {
+    background: #156056;
+    background: -webkit-linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.7)), url("./Images/glucosamineexperts.png");
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.7)), url("./Images/glucosamineexperts.png"); 
+}
 
 .project-container {
     display: flex;
@@ -114,6 +119,7 @@ nav.is-transparent .navbar-menu .navbar-end a.navbar-item:hover {
     background-repeat: no-repeat;
     height: 200px;
 }
+
 
 
 
